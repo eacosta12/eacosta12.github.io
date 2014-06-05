@@ -1,16 +1,107 @@
-
-
 * {
 	margin: 0;
 	padding: 0;
 }
 
 header {
+background-image: url(../images/beans.jpg);
+width: 1024px;
+height: 280px;
+clear: both;
+position: relative;
+}
+
+body {
+	width: 1024px;
+}
+
+nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	vertical-align: center;
+	display: inline-block;
+	width: 1024px;
+	background-color: #230B03;
 	position: relative;
-	background: url(images/beans.jpg) no-repeat center center; 
+	top: 35px;
 }
 
-.front  {
-	z-index: 5;
+nav li {
+	float: left;
+	min-width: 5em;
+	background-color: #230B03;
+	text-align: center;
+	display: inline;
+	padding-top: 5px;
+	
+
+}
+  
+nav li a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: large;
+	
+	text-align: center;
+	height: 30px;
+	position: relative;
+	left: 350px;
+	
+	color: #cebb99;
+	clear: both;
+}	
+
+ul {
+	width: 1024px;
+
 }
 
+img {
+	padding-left: 444px; 
+	padding-top: 15px;
+}
+
+section {
+	padding-top: 30px;
+	
+}
+
+.left {
+	width: 50%;
+	float: left;
+	
+}
+
+.right {
+	width: 50%;
+	float: right;
+	
+}
+
+h1 {
+	text-align: center;
+	color: #230B03;
+	font-family: "Ariel", sans-serif;
+
+}
+
+p{
+	text-align: center;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	text-align: center;
+	color: #cebb99;
+	background-color: #230B03;
+	clear: both;
+	padding-top: 45px;
+	height: 90px;
+	margin-top: 300px;
+	
+
+}
