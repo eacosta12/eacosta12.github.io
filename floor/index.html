@@ -7,26 +7,31 @@
 
 	<link rel="stylesheet" href="css/styles.css" />
 
+	<script type="text/javascript" src="//use.typekit.net/vfo6kzi.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 
 <body>
-	<header>
-		<div id="logo">
+	<header class="header">	
+		<div id="header">
+			<div id="logo">
 			<p>Elite Flooring</p>
 		</div>
 
-		<nav> 
-			<ul>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="services.html">Services</a></li>
-				<li><a href="about.html">About</a></li>
-				<li id="contact"><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
+			<nav id="nav"> 
+				<ul class="nav navbar-nav">
+					<li><a href="projects.html">Projects</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="about.html">About</a></li>
+					<li id="contact"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>	
 	</header>
 	
 	<div id="bg">
-		<img src="img/1.jpg" alt="">
+		<!-- <img src="img/1.jpg" alt=""> -->
 	</div>	
 
 	
@@ -39,7 +44,7 @@
 
 	</div>
 
-	<a href="services.html" class="button">Learn More</a>
+	
 	
 	<section class="process">
 		
@@ -48,29 +53,31 @@
 		
 
 		<div class="icons">
+
+			<a href="services.html" class="button">Learn More</a>
 			<ul>
-				<li id="consult"><a href="services.html">
-					<img src="icon.jpg" alt="Consult" />
+				<li class="services"><a href="services.html">
+					<img src="img/consult.svg" alt="Consult" />
 						<h3>Consult</h3>
 							<p>Monthly budget reports <br> and onsite project management</p>
 					</a>
 				</li>
 
-				<li id="budget"><a href="services.html">
+				<li class="services"><a href="services.html">
 					<img src="icon.jpg" alt="Budget" />
 						<h3>Budget</h3>
 							<p>Monthly budget reports <br> and onsite project management</br></p>
 					</a>
 				</li>
 
-				<li id="design"><a href="services.html">
+				<li class="services"><a href="services.html">
 					<img src="icon.jpg" alt="Design" />
 						<h3>Design</h3>
-							<p>Monthly budget reports <br> and onsite project management</p>
+							<p>Mothly budget reports <br> and onsite project management</p>
 					</a>
 				</li>
 
-				<li id="build"><a href="services.html">
+				<li class="services"><a href="services.html">
 					<img src="icon.jpg" alt="Build" />
 						<h3>Build</h3>
 							<p>Monthly budget reports <br> and onsite project management</p>
@@ -84,6 +91,19 @@
 	<footer>
 		ELITE FLOORING LTD.  //  2999 WEST BELMONT AVENUE // CHICAGO, ILLINOIS 60618 // PHONE 630 293 0894
 	</footer>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script src="js/jquery.stickyNavbar.min.js"></script>
+
+	<script type="text/javascript">
+		$(function () {
+   		$('.header').stickyNavbar();
+		});
+	</script>
+
+
+
 
 </body>
 

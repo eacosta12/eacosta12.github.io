@@ -7,6 +7,7 @@
 
 header {
 	height: 100px;
+	width: 100%;
 	background-color: #999B9D;
 	padding-top: 1em;
 }
@@ -61,10 +62,20 @@ nav li a {
 
 #bg {
 	/*position: fixed;*/
-	top: -50%;
+	
+	/*display: block;*/
+	position: relative;
+
+	min-height: 925px;   /*300px;*/
+	/*max-height: 25vh;*/
+	/*height: auto;*/
+	background: url(../img/1.jpg) no-repeat center center;
+	background-size: cover;
+
+	/*top: -50%;
 	left: -50%;
 	width: 200%;
-	height: 200%;
+	height: 200%;*/
 }
  
 #bg img {
@@ -78,25 +89,27 @@ nav li a {
 	min-height: 50%;
 } 
 
-
 .paragraph {
 	text-align: center;
+	font-family: "museo-slab",serif;
 
 	
 }
 
 .process {
 	width: 100%;
-	position: relative;
+	/*position: relative;*/
 	display: block;
-	margin-top: 0 auto 0 auto;
-}
+	/*margin: 0 auto;*/
+	/*margin-left: auto;*/
+	
+	}
 
 .button {
 	width: 17em;
-	position: absolute;
+	/*position: relative;*/
 	display: block;
-	left: 50%;
+	/*left: 50%;*/
 	letter-spacing: .2em;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -105,8 +118,16 @@ nav li a {
 	background-color: #DCA459;
 	color: #fff;
 	border-radius: .4em;
-	margin: 62px 0 0 -125px;
+	margin-top: -20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+	/*margin: 62px 0 0 -125px;*/
 	padding: 15px 0 0 0;
+
+	/*margin-top: 62px;*/
+	
 	border: 1px solid #666;
 	text-decoration: none;
 	z-index: 2;	
@@ -116,66 +137,58 @@ nav li a {
 
 
 .icons {
-	width: 75%;
+	/*width: 75%; 
 	height: 20%;
-	top: 20%;
+	top: 20%;*/
 	
-	outline: 1px solid red;
+	/*width: auto;*/
+
+	/*outline: 1px solid red;*/
 	text-align: center;
 	text-decoration: none;
 	background-color: gray;
 	position: relative;
 	display: block;
 	float: left;
+	/*left: 16.4%;*/
+	/*margin-top: -1.75em;*/ /*5%;*/
+	/*margin-left: 6.25%;
+	margin-right: 6.25%;*/
 	margin: 6em 5%;
+	width: 90%;
+	/*margin-bottom: 5em;*/
 	padding-bottom: 3em;
 	z-index: 1;
 }
 
 .icons li {
-	margin: 2em auto;
+	/*margin: 2em auto;*/
 }
 
 .icons li a {
 	text-decoration: none;
 }
 
-#consult {
+.services {
 	text-decoration: none;
-	min-width: 20em;
+	/*min-width: 20em;*/
+	width: 25%;
 	padding-top: 5em;
 	float: left;
 	display: block;
+
+
 }
 
-#budget {
-	
-	min-width: 20em;
-	padding-top: 5em;
-	float: left;
-	display: block;
-}
 
-#design {
-	
-	min-width: 20em;
-	padding-top: 5em;
-	float: left;
-	display: block;
+.services img {
+	width: 20%;
+	padding-bottom: 1em; 
 }
-
-#build {
-	
-	min-width: 20em;
-	padding-top: 5em;
-	float: left;
-	display: block;
-}
-
 footer {
 	text-align: center;
 	position: relative;
-	margin: 0 auto;
+	
 	display: block; 
 	clear: both;
 }
