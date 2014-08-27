@@ -60,7 +60,7 @@ nav li a {
 	
 }*/
 
-#bg {
+.bg {
 	/*position: fixed;*/
 	
 	/*display: block;*/
@@ -78,7 +78,36 @@ nav li a {
 	height: 200%;*/
 }
  
-#bg img {
+.bg img {
+	position: relative;
+	top: 10%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	min-width: 50%;
+	min-height: 50%;
+} 
+
+.slick .bg2 {
+	/*position: fixed;*/
+	
+	/*display: block;*/
+	position: relative;
+
+	min-height: 925px;   /*300px;*/
+	/*max-height: 25vh;*/
+	/*height: auto;*/
+	background: url(../img/2.jpg) no-repeat center center;
+	background-size: cover;
+
+	/*top: -50%;
+	left: -50%;
+	width: 200%;
+	height: 200%;*/
+}
+ 
+.slick .bg2 img {
 	position: relative;
 	top: 10%;
 	left: 0;
@@ -92,6 +121,7 @@ nav li a {
 .paragraph {
 	text-align: center;
 	font-family: "museo-slab",serif;
+	padding-top: 1em;
 
 	
 }
@@ -182,12 +212,13 @@ nav li a {
 
 
 .services img {
-	width: 20%;
+	width: 25%;
 	padding-bottom: 1em; 
 }
 footer {
 	text-align: center;
 	position: relative;
+	padding-bottom: 1em;
 	
 	display: block; 
 	clear: both;
