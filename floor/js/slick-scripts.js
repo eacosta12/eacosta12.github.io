@@ -4,11 +4,11 @@ $(document).ready(function() {
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
         fade: true,
-        slide: '> div'
+        slide: 'div'
         
     });
 
